@@ -53,5 +53,67 @@
     "microphone": "rdp_capture_enabled",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "audio_output": "rdp_playback_enabled"
+  },
+  "storage": {
+    "boost": "ok",
+    "before_gb": 82.02,
+    "after_gb": 107.16,
+    "gained_gb": 25.14,
+    "estimated_freed_gb": 22,
+    "drives": [
+      {
+        "free_gb": 107.16,
+        "size_gb": 255.45,
+        "letter": "C",
+        "used_gb": 148.29
+      },
+      {
+        "free_gb": 147.02,
+        "size_gb": 150.0,
+        "letter": "D",
+        "used_gb": 2.98
+      }
+    ],
+    "game_dir": "D:\\Games (disarankan untuk GTA)",
+    "note": "Storage boost selesai. Android/Haskell/CodeQL/dotnet lama & cache dibersihkan. Sisa 70GB -> bisa jadi 110-140GB free."
+  },
+  "samp": {
+    "play_tested": false,
+    "gta_installed": false,
+    "samp_installed": false,
+    "netfx3": "Enabled",
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "directx": "verified_x86_x64",
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "directplay": "Enabled",
+    "status": "dependencies_ready"
+  },
+  "games": {
+    "roblox": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "samp": {
+      "status": "dependencies_ready",
+      "gta_installed": false,
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "game_dir": null,
+      "samp_installed": false
+    },
+    "minecraft_bedrock": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "minecraft_java": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    }
+  },
+  "game_environment": {
+    "os": "Microsoft Windows Server 2022 Datacenter",
+    "play_tested": false,
+    "hypervisor_present": true,
+    "runner": "windows-2022",
+    "windows_server": true
   }
 }
